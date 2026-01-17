@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprenda a produzir alimentos mais saudáveis em casa com orientações práticas de um engenheiro agrônomo">
+    <title>Produção de Alimentos em Casa - Lista Prioritária</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="headline">Folhas amareladas? Como saber a quantidade exata de adubo para colocar em sua horta, sem perder tempo?</h1>
+            <p class="subtitle">Orientações práticas de um Engenheiro Agrônomo para quem quer melhorar a nutrição de suas plantas</p>
+            
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <!-- IMPORTANTE: Substitua o src abaixo pelo link de embed do seu vídeo do YouTube ou Vimeo -->
+                    <!-- YouTube: https://www.youtube.com/embed/SEU_VIDEO_ID -->
+                    <!-- Vimeo: https://player.vimeo.com/video/SEU_VIDEO_ID -->
+                    <iframe 
+                        id="main-video"
+                        src="https://player.vimeo.com/video/1155269940?h=4fbb39c90a" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen
+                        loading="lazy"
+                        title="Vídeo sobre produção de alimentos em casa">
+                    </iframe>
+                </div>
+            </div>
+            
+            <a href="#formulario" class="cta-button primary">Quero entrar na lista prioritária</a>
+        </div>
+    </section>
+
+    <!-- Seção de Identificação -->
+    <section class="identificacao">
+        <div class="container">
+            <div class="content-box">
+                <p class="texto-identificacao">
+                    Sou engenheiro agrônomo e trabalho há anos com produção agrícola.<br>
+                    Percebi que muitas famílias querem comer melhor, planejam uma horta orgânica, mas não sabem bem por onde começar.<br>
+                    Tudo começa no solo! Essa lista é para quem quer aprender o básico certo, sem complicação <br>
+                    e ter acesso a ferramentas que vão calcular tudo para você! <br>
+                    faça o cadastro e participe da nossa comunidade! <br>
+                    https://chat.whatsapp.com/Lakwg1I8RM147sZoZ9DGdn
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção: Por que o jeito atual não funciona -->
+    <section class="problemas">
+        <div class="container">
+            <h2 class="section-title">Por que o jeito atual não funciona</h2>
+            <ul class="bullet-list">
+                <li>Comprar adubo sem saber o que é e qual quantidade aplicar</li>
+                <li>Não calcular corretamente a adubação de acordo com cada espécie</li>
+                <li>Achar que produzir em casa é difícil</li>
+                <li>Falta de orientação técnica simples</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção: O novo jeito -->
+    <section class="solucao">
+        <div class="container">
+            <h2 class="section-title">O novo jeito</h2>
+            <ul class="bullet-list positive">
+                <li>Produção orientada</li>
+                <li>Ferramentas de cálculo automático</li>
+                <li>Orientações técnicas</li>
+                <li>Decisões mais conscientes</li>
+                <li>Mais saúde e tranquilidade</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Formulário de Captura -->
+    <section id="formulario" class="formulario">
+        <div class="container">
+            <div class="form-wrapper">
+                <h2 class="form-title">Entre para a lista prioritária e receba os próximos conteúdos gratuitamente</h2>
+                
+                <!-- Formulário integrado com Google Apps Script para salvar dados na planilha -->
+                <form id="capture-form" class="capture-form" aria-label="Formulário de cadastro na lista prioritária">
+                    <div class="form-group">
+                        <label for="nome">Nome completo</label>
+                        <input 
+                            type="text" 
+                            id="nome" 
+                            name="nome" 
+                            placeholder="Seu nome completo"
+                            required
+                            aria-describedby="nome-error"
+                            aria-invalid="false"
+                        >
+                        <span class="error-message" id="nome-error" role="alert" aria-live="polite"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            placeholder="seu@email.com"
+                            required
+                            aria-describedby="email-error"
+                            aria-invalid="false"
+                        >
+                        <span class="error-message" id="email-error" role="alert" aria-live="polite"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="whatsapp">WhatsApp</label>
+                        <input 
+                            type="tel" 
+                            id="whatsapp" 
+                            name="whatsapp" 
+                            placeholder="(00) 00000-0000"
+                            required
+                            aria-describedby="whatsapp-error"
+                            aria-invalid="false"
+                        >
+                        <span class="error-message" id="whatsapp-error" role="alert" aria-live="polite"></span>
+                    </div>
+
+                    <button type="submit" class="cta-button primary submit-btn">
+                        Quero participar
+                    </button>
+                </form>
+
+                <p class="security-text">Sem spam. Você pode sair quando quiser.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prova de Confiança / Autoridade -->
+    <section class="autoridade">
+        <div class="container">
+            <div class="autoridade-box">
+                <h2 class="section-title">Conteúdo desenvolvido por engenheiro agrônomo</h2>
+                <ul class="autoridade-list">
+                    <li>Baseado em práticas reais de produção</li>
+                    <li>Sem promessas milagrosas</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-project">Produção de Alimentos em Casa</p>
+            <p class="footer-disclaimer">
+                Este site não oferece aconselhamento médico. O conteúdo é educativo.
+            </p>
+            <p class="footer-privacy">
+                <a href="#privacidade" class="privacy-link">Aviso de privacidade</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
